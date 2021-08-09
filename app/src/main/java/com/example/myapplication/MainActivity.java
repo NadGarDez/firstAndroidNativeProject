@@ -6,6 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.R;
 
+import android.content.Intent;
+
+import android.view.View;
+import android.widget.TextView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,4 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.another_activity);
     }
+
+
 }

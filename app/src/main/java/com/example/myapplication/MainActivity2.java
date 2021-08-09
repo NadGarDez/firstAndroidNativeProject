@@ -30,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
     public void startNextIntent(View view){
-        Intent myintent = new Intent(this,shop.class);
+        Intent myintent = new Intent(this,bottonWithActionActivity.class);
         startActivity(myintent);
 
     }
